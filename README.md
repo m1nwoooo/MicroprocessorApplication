@@ -11,7 +11,12 @@ TP_1과 TP_2 모두 아래의 동일한 시스템을 이용한다.
 
 <img width="165" height="388" alt="image" src="https://github.com/user-attachments/assets/155ba85c-a588-481e-a0a9-963542ac2b63" />
 
-두 과제 모두 64pt FFT 시간 단축을 목표로 unrolling, scheduling 등의 기법을 이용한다.ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
-자세한 Rules(TP_Microprocessor.pdf)과 시간 단축에 사용한 기법(TP_MP_*.pdf)을 함께 첨부하였다.
+두 과제 모두 64pt FFT 시간 단축을 목표로 unrolling, scheduling 등의 기법을 이용한다.
+
+TP_1에서는 65,640,000ps => 14,190,000ps로 시간을 단축하였다. (x5)
+
+TP_2에서는 65,640,000ps => 6,634,000ps로 시간을 단축하였다.  (x10)
+ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
+자세한 Rules(TP_Microprocessor.pdf)과 시간 단축에 사용한 기법과 ablation study(TP_MP_*.pdf)과 함께 첨부하였다.
 
 
