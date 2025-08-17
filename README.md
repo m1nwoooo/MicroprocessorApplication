@@ -3,7 +3,7 @@
 
 
 ## Figure
-**TP1: FFT Accelerator with a Single Core   ㅤㅤㅤTP2: FFT Accelerator with Multiple Cores**
+**TP1: FFT Accelerator with a Single Core   ㅤㅤㅤㅤㅤTP2: FFT Accelerator with Multiple Cores**
 
 
 <img width="360" height="240" alt="image" src="https://github.com/user-attachments/assets/f722fae9-80f3-4487-90f3-206604fc04f6" /> <img width="360" height="240" alt="image" src="https://github.com/user-attachments/assets/82ac7a00-9f5e-4239-a927-d7bea267f9bb" /> 
@@ -12,6 +12,8 @@
 
 
 
+
+ㅤㅤㅤㅤ
 
 ## <MAIN IDEA>
 
