@@ -4,7 +4,7 @@ Implementaion of Memory Based 64pt FFT Accelerator with RISC-V (multi core proce
 ㅤㅤㅤㅤ**TP1: FFT Accelerator with a Single Core**  ㅤㅤㅤㅤㅤㅤㅤㅤㅤ **TP2: FFT Accelerator with Multiple Cores**
 
 
-<img width="337" height="220" alt="image" src="https://github.com/user-attachments/assets/f722fae9-80f3-4487-90f3-206604fc04f6" /> <img width="337" height="220" alt="image" src="https://github.com/user-attachments/assets/82ac7a00-9f5e-4239-a927-d7bea267f9bb" /><img width="100" height="220" alt="image" src="https://github.com/user-attachments/assets/155ba85c-a588-481e-a0a9-963542ac2b63" />
+<img width="360" height="240" alt="image" src="https://github.com/user-attachments/assets/f722fae9-80f3-4487-90f3-206604fc04f6" /> <img width="360" height="240" alt="image" src="https://github.com/user-attachments/assets/82ac7a00-9f5e-4239-a927-d7bea267f9bb" /><img width="140" height="240" alt="image" src="https://github.com/user-attachments/assets/155ba85c-a588-481e-a0a9-963542ac2b63" />
 
 TP_1과 TP_2 모두 아래의 동일한 시스템을 이용한다.
 
