@@ -2,7 +2,7 @@
 자세한 Rules (**TP_Microprocessor.pdf**)과 시간 단축에 사용한 기법과 ablation study(**TP_MP_*.pdf**)과 함께 첨부하였습니다.
 
 
-##TP1: FFT Accelerator with a Single Core   ㅤㅤㅤTP2: FFT Accelerator with Multiple Cores
+## TP1: FFT Accelerator with a Single Core   ㅤㅤㅤTP2: FFT Accelerator with Multiple Cores
 
 
 <img width="360" height="240" alt="image" src="https://github.com/user-attachments/assets/f722fae9-80f3-4487-90f3-206604fc04f6" /> <img width="360" height="240" alt="image" src="https://github.com/user-attachments/assets/82ac7a00-9f5e-4239-a927-d7bea267f9bb" /> 
@@ -12,7 +12,7 @@
 
 
 
-##<MAIN IDEA>
+## <MAIN IDEA>
 | 구분 | **TP_1 (single_core)** | **TP_2 (three_cores)** |
 | :--- | :--- | :--- |
 | **주요 전략** | Register를 활용한 **Data Reuse**와 **Unrolling** 기법을 사용했습니다. | 각 코어별로 역할을 분배하여 **Pipeline**을 구성하고, 모든 코어가 쉬는 구간 없이 동작하도록 최적화했습니다. |
