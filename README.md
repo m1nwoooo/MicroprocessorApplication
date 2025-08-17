@@ -1,6 +1,9 @@
 # MicroprocessorApplication
 Implementaion of Memory Based 64pt FFT Accelerator with RISC-V (multi core processing)
 
+>자세한 Rules (**TP_Microprocessor.pdf**)과 시간 단축에 사용한 기법과 ablation study(**TP_MP_*.pdf**)과 함께 첨부하였다.
+
+
 ㅤㅤ**TP1: FFT Accelerator with a Single Core**   ㅤㅤㅤ**TP2: FFT Accelerator with Multiple Cores** 
 
 
@@ -37,6 +40,6 @@ stage 순서대로 계산하지 않고 위 그림의 가로 방향으로 연산�
 TP_2에서는 65,640,000ps => 6,634,000ps로 시간을 단축하였다.  **(x10)**
 
 
->자세한 Rules (**TP_Microprocessor.pdf**)과 시간 단축에 사용한 기법과 ablation study(**TP_MP_*.pdf**)과 함께 첨부하였다.
+
 
 
