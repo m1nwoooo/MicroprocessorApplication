@@ -11,7 +11,7 @@ TP_1과 TP_2 모두 아래의 동일한 시스템을 이용한다.
 
 <img width="165" height="388" alt="image" src="https://github.com/user-attachments/assets/155ba85c-a588-481e-a0a9-963542ac2b63" />
 
-두 과제 모두 64pt FFT 시간 단축을 목표로 unrolling, scheduling 등의 기법을 이용한다.
+두 과제 모두 64pt FFT 시간 단축을 목표로 unrolling, scheduling 등의 기법을 이용한다.ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
 자세한 Rules(TP_Microprocessor.pdf)과 시간 단축에 사용한 기법(TP_MP_*.pdf)을 함께 첨부하였다.
 
 
