@@ -1,11 +1,8 @@
 # MicroprocessorApplication
-Implementaion of Memory Based 64pt FFT Accelerator with RISC-V (multi core processing)
-
->자세한 Rules (**TP_Microprocessor.pdf**)과 시간 단축에 사용한 기법과 ablation study(**TP_MP_*.pdf**)과 함께 첨부하였다.
+자세한 Rules (**TP_Microprocessor.pdf**)과 시간 단축에 사용한 기법과 ablation study(**TP_MP_*.pdf**)과 함께 첨부하였다.
 
 
-**<Brief Introduction>**
-ㅤㅤ**TP1: FFT Accelerator with a Single Core**   ㅤㅤㅤ**TP2: FFT Accelerator with Multiple Cores** 
+**TP1: FFT Accelerator with a Single Core**   ㅤㅤㅤ**TP2: FFT Accelerator with Multiple Cores** 
 
 
 <img width="360" height="240" alt="image" src="https://github.com/user-attachments/assets/f722fae9-80f3-4487-90f3-206604fc04f6" /> <img width="360" height="240" alt="image" src="https://github.com/user-attachments/assets/82ac7a00-9f5e-4239-a927-d7bea267f9bb" /> 
@@ -16,30 +13,35 @@ TP_1과 TP_2 모두 위의 동일한 시스템을 이용한다. (TP_1: single co
 
 
 두 과제 모두 64pt FFT 시간 단축을 목표로 한다.
+구분
 
-**<TP_1_signle_core>**
+TP_1 (single_core)
 
+TP_2 (three_cores)
 
-register를 활용한 data reuse와 unrolling 기법이 주된 전략이었다.
+주요 전략
 
-<img width="850" height="424" alt="image" src="https://github.com/user-attachments/assets/a03b6e20-818b-401c-87bd-10c32ea2c9fb" />
+Register를 활용한 Data Reuse와 Unrolling 기법을 사용했습니다.
 
-특히, 이전 stage의 output이 다음 stage의 input이 된다는 것에 주목하였다.
+각 코어별로 역할을 분배하여 Pipeline을 구성하고, 모든 코어가 쉬는 구간 없이 동작하도록 최적화했습니다.
 
-stage 순서대로 계산하지 않고 위 그림의 가로 방향으로 연산해 나가며, register 개수가 허락하는 한 input의 연산결과 output을 최대한 활용하여 data reuse를 극대화하였다. 
+핵심 아이디어
 
-65,640,000ps => 14,190,000ps로 시간을 단축하였다. . **(x5)**
+이전 stage의 output이 다음 stage의 input이 된다는 점에 주목하여, 가로 방향으로 연산하며 register 내의 데이터를 최대한 재사용했습니다.<br><br><img width="425" alt="TP_1" src="https://github.com/user-attachments/assets/a03b6e20-818b-401c-87bd-10c32ea2c9fb">
 
-**<TP_2_three_cores>**
+메모리 접근 시 Core 0 > Core 1 > Core 2 순으로 우선순위가 있다는 것을 실험적으로 발견하고, 이를 기반으로 각 코어의 역할을 효율적으로 분배했습니다.<br><br><img width="705" alt="TP_2" src="https://github.com/user-attachments/assets/d4cda7ae-c4c7-4df4-90f9-0f87fcd7939d">
 
-각 코어별로 역할을 분배하여 모든 코어가 가능한 쉬는 구간없이 동작하도록 pipeline을 구성하였다.
+성능 개선
 
-<img width="1410" height="399" alt="image" src="https://github.com/user-attachments/assets/d4cda7ae-c4c7-4df4-90f9-0f87fcd7939d" />
+65,640,000 ps ➡️ 14,190,000 ps
 
-특히, 메모리 접근 시 core 0 > core 1 > core 2 순서대로 우선순위를 가진다는 것을 실험적으로 알아내어, 각 코어들의 역할을 분배했다.
+65,640,000 ps ➡️ 6,634,000 ps
 
-TP_2에서는 65,640,000ps => 6,634,000ps로 시간을 단축하였다.  **(x10)**
+속도 향상
 
+약 5배
+
+약 10배
 
 
 
