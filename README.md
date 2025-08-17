@@ -15,7 +15,7 @@
 
 ㅤㅤㅤㅤ
 
-## <MAIN IDEA>
+## MAIN IDEA
 
 | 구분 | **TP_1 (single_core)** | **TP_2 (three_cores)** |
 | :--- | :--- | :--- |
