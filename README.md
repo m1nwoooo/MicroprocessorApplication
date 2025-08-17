@@ -7,7 +7,6 @@
 
 <img width="360" height="240" alt="image" src="https://github.com/user-attachments/assets/f722fae9-80f3-4487-90f3-206604fc04f6" /> <img width="360" height="240" alt="image" src="https://github.com/user-attachments/assets/82ac7a00-9f5e-4239-a927-d7bea267f9bb" /> 
 
-TP_1과 TP_2 모두 위의 동일한 시스템을 이용한다. (TP_1: single core, TP_2: 3 cores)
 
 
 
