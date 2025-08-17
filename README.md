@@ -1,7 +1,7 @@
 # 🤖 MicroprocessorApplication
 Implementaion of Memory Based 64pt FFT Accelerator with RISC-V
 
-자세한 Rules (**TP_Microprocessor.pdf**)과 시간 단축에 사용한 기법과 ablation study(**TP_MP_*.pdf**)과 함께 첨부하였습니다.
+■ 자세한 Rules (**TP_Microprocessor.pdf**)과 시간 단축에 사용한 기법과 ablation study(**TP_MP_*.pdf**)과 함께 첨부하였습니다.
 
 
 ## ⚡Figure
