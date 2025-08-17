@@ -18,6 +18,6 @@ TP_1에서는 65,640,000ps => 14,190,000ps로 시간을 단축하였다. **(x5)*
 TP_2에서는 65,640,000ps => 6,634,000ps로 시간을 단축하였다.  **(x10)**
 
 
-자세한 Rules**(TP_Microprocessor.pdf)**과 시간 단축에 사용한 기법과 **ablation study(TP_MP_*.pdf)**과 함께 첨부하였다.
+자세한 Rules (**TP_Microprocessor.pdf**)과 시간 단축에 사용한 기법과 ablation study(**TP_MP_*.pdf**)과 함께 첨부하였다.
 
 
